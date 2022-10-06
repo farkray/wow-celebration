@@ -54,3 +54,53 @@
 .vic-btn {
     z-index: 1;
 }
+
+.main-control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+    .main-control {
+      flex-direction: column;
+      align-items: start !important;
+    }
+
+    .main-control div{
+        margin-top: 100px;
+        width: 100% !important;
+        height: 600px !important;
+    }
+
+    .main-control div iframe{
+        width: 250px;
+    }
+
+    .main-control .insta-div{
+        margin-left: -40px;
+    }
+
+    .margin-5 iframe{
+        width: 350px;
+        height: 200px;
+    }
+   
+
+  }
+
+.main-control div {
+    justify-self: center;
+    padding: 40px;
+    width: 500px;
+    height: 600px;
+    margin-left: 20px;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+
+
